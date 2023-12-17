@@ -11,3 +11,6 @@ Restaurant2 = Restaurant("Pizzahut")
 Review1 = Review(Customer1, Restaurant1, 10)
 Review2 = Review(Customer2, Restaurant2, 6)
 
+print(f"Name :  {Customer1.full_name()}")
+print(f"Rating : {Restaurant2.average_star_rating()}")
+print(f"Review : {Customer2.num_reviews()}")
